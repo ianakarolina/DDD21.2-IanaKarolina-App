@@ -3,12 +3,13 @@ import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
 import Login from './screens/Login';
 import Cadastro from './screens/Cadastro'
+import EsqueciSenha from './screens/EsqueciSenha';
 
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Cadastro />
+      <EsqueciSenha />
       <StatusBar style="auto" backgroundColor='#fff' />
     </View>
   );
