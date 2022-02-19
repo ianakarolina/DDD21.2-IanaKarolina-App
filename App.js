@@ -4,6 +4,7 @@ import React from 'react';
 import Login from './screens/Login';
 import Cadastro from './screens/Cadastro'
 
+
 export default function App() {
   return (
     <View style={styles.container}>

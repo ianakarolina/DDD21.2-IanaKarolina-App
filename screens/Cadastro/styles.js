@@ -17,4 +17,11 @@ export const Logo = styled.Image`
     margin-left: 20px;
 `;
 
-
+export const Text = styled.Text`
+    font-size: ${props=>props.fontsize}px;
+    font-weight: ${props=>props.fontweight};
+    color: ${colors.texto};
+    align-self: flex-start;
+    margin-top: 10px;
+    margin-left: 10px;
+`;
