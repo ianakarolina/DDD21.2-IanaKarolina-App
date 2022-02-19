@@ -9,6 +9,7 @@ import {
 import Button from '../../src/components/Button'
 import Input from '../../src/components/Input'
 import SilverLogo from '../../src/assets/Logo.png'
+import Icon from 'react-native-vector-icons/AntDesign'
 
 import {screenHeight, screenWidth} from '../../src/constants/dimensions'
 import colors from '../../src/constants/colors'
@@ -16,6 +17,7 @@ import colors from '../../src/constants/colors'
 const EsqueciSenha = ({fontsize,fontweight}) => {
     return (
         <Container>
+            <Icon name='arrowleft' size={25} color={colors.secundaria}/>
             <Logo resizeMode='contain' source={SilverLogo}/>
             <Text fontsize={17} fontweight={'bold'}>Silver Motors ID</Text>
             <Text fontsize={22} fontweight={'100'}>Esqueci minha senha</Text>
