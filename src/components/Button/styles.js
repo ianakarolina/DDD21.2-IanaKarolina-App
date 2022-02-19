@@ -8,11 +8,13 @@ export const Container = styled.TouchableOpacity`
     align-self: center;
     justify-content: center;
     background-color: ${props=>props.backgroundcolor};
-    border-radius:  ${props=>props.radius}px;;
+    border-radius:  ${props=>props.radius}px;
+    margin-top: ${props=>props.margintop}px;
+    border: ${props=>props.border};
 `; 
 
 export const ButtonText = styled.Text`
-    font-size: 20px;
+    font-size: 15px;
     font-weight: 800;
     text-align: center;
     color: #fff;

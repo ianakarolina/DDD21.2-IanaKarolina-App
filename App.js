@@ -1,19 +1,13 @@
 import { StatusBar } from 'expo-status-bar';
 import { StyleSheet, Text, View } from 'react-native';
 import React from 'react';
-import Button from './src/components/Button';
-import Input from './src/components/Input'
-
-import {screenHeight, screenWidth} from './src/constants/dimensions';
-
+import Login from './screens/Login';
+import Cadastro from './screens/Cadastro'
 
 export default function App() {
   return (
     <View style={styles.container}>
-      <Button text='ENTRAR' width={screenWidth*0.35} height={50} backgroundcolor={'#837F7B'} radius={5}/>
-      <Button text='Registrar-se' width={screenWidth*0.67} height={50} backgroundcolor={'#AB0707'}  radius={30}/>
-      <Input width={screenWidth*0.8} placeholder='Login'/>
-      <Input width={screenWidth*0.8} placeholder='Senha'/>
+      <Cadastro />
       <StatusBar style="auto" backgroundColor='#fff' />
     </View>
   );
